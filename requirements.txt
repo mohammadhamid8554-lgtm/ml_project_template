@@ -1,7 +1,20 @@
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-pytest
-python-dotenv
+# --- Data Handling & Math ---
+pandas       # For working with structured data (like Excel/CSV tables)
+numpy        # For fast mathematical operations and arrays
+
+# --- Machine Learning ---
+scikit-learn # The core library for building machine learning models
+
+# --- Data Visualization ---
+matplotlib   # For creating basic graphs and charts
+seaborn      # For creating beautiful, advanced statistical charts
+
+# --- Development Tools ---
+pytest       # For writing automated tests to check your code
+python-dotenv# For securely loading passwords/API keys from the .env file
+setuptools   # For packaging your project
+
+# --- Project Linking ---
+# This links to your setup.py file and installs your own project 
+# as a package so you can import from the 'src' folder anywhere.
+-e .
